@@ -1,0 +1,11 @@
+includes:
+    - vendor/narration/phpstan-rules/rules.neon
+
+parameters:
+    ignoreErrors:
+        - '#Class Narration\\ScalarObjects\\Str is neither abstract nor final.#'
+    reportUnmatchedIgnoredErrors: false
+    level: max
+    paths:
+        - src
+        - tests
